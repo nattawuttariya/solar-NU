@@ -1,0 +1,31 @@
+{
+  "name": "my-node-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "s": "node s.js",
+    "start-all": "npm-run-all --parallel server s",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "date-fns": "^3.6.0",
+    "express": "^4.19.2",
+    "moment": "^2.30.1",
+    "mongodb": "^6.6.0",
+    "mongoose": "^8.3.3",
+    "prompt-sync": "^4.2.0",
+    "ws": "^8.17.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0",
+    "npm-run-all": "^4.1.5"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+}
